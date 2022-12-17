@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import womandonate from "../assets/image/woman-sorting-clothes-for-donation.jpg";
 import { BoxClothes } from "../components/BoxClothes";
-import json from "../assets/json/clothes.json";
+import {clothesData} from "../assets/json/clothes.js";
 
 export function Home() {
   return (
@@ -35,10 +35,10 @@ export function Home() {
         </p>
 
         <div className="container_in_clothes">
-          <BoxClothes clothes={json[0]} />
-          <BoxClothes clothes={json[1]} />
-          <BoxClothes clothes={json[2]} />
-          <BoxClothes clothes={json[3]} />
+          <BoxClothes clothes={clothesData[0]} />
+          <BoxClothes clothes={clothesData[1]} />
+          <BoxClothes clothes={clothesData[2]} />
+          <BoxClothes clothes={clothesData[3]} />
         </div>
       </section>
     </main>

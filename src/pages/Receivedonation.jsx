@@ -1,5 +1,5 @@
 import { BoxClothes } from "../components/BoxClothes";
-import json from "../assets/json/clothes.json";
+import {clothesData} from "../assets/json/clothes.js";
 
 
 export function Receivedonation() {
@@ -20,7 +20,7 @@ export function Receivedonation() {
 
         <div className="container_in_clothes">
           {
-            json.map((value, index) => {
+            clothesData.map((value, index) => {
               return(
                 <BoxClothes clothes={value} key={index} />
               )
