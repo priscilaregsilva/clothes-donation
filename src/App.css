@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_center {
+    text-align: center;
+}
+
+/* Header e Menu */
+
+header {
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 1px 6px 0px #c5c5c5;
+}
+
+header>img {
+    height: 80px;
+    margin-left: 120px;
+}
+
+.menu {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 590px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu>li {
+    list-style-type: none;
+}
+
+.menu>li>a {
+    display: block;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #88858e;
+    text-decoration: none;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.menu>li>a:hover {
+    border-bottom-color: #ff6d12 !important;
+    border-top-color: #ff6d12 !important;
+}
+
+.button_donate {
+    border-radius: 33.5px;
+    padding: 13px 30px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 90px;
+    color: white;
+    background-color: #ff6d12;
+    display: inline-block;
+}
+
+/* Header e Menu */
+
+/* Main */
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+.home_top {
+    background-color: #e3f6f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home_top > div > h1 {
+    color:#ff85a9;
+}
+
+.home_top>div {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.imagewoman {
+    width: 400px;
+    border-radius: 200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container_clothes {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+}
+
+.container_clothes>h2 , .container_clothes>p {
+    text-align: center;
+}
+
+.container_in_clothes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+/* Main */
+
+/* About */
+
+.about_top {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.about_top > h1 {
+    color:#ff85a9;
+}
+
+.about_top>h2,
+.about_top>h1 {
+    text-align: center;
+}
+
+.about_top>p {
+    margin: 20px 50px;
+}
+
+.container_about {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container_about>div {
+    background-color: #FE8F1F;
+    color: white;
+    padding: 10px 20px;
+    width: 250px;
+    margin: 20px 0;
+}
+
+.container_about>div>img {
+    width: 100px;
+}
+
+/* About */
+/* Donative */
+
+.donative_top {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.donative_top>h1 {
+    text-align: center;
+    color:#ff85a9;
+}
+
+.donative_form {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.donative_form>div {
+    background-color: #5A3A31;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.donative_form>div>.form_text {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.form_text {
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 14px;
+}
+
+.form_text:focus-visible {
+    outline: none;
+}
+
+.form_button {
+    border-radius: 33.5px;
+    padding: 13px 30px;
+    line-height: 1.5;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: #ff6d12;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.receivedonation_top {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.receivedonation_top > h1 {
+    color:#ff85a9;
+}
+
+.receivedonation_top>h1 {
+    text-align: center;
+}
+
+.formreceivedonation_top {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.receivedonation_form {
+    background-color: #F7F5F1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.receivedonation_form>div {
+    background-color: #723a55;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.receivedonation_form>div>.form_text {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.photo_author {
+    width: 50px;
+}
+
+.image_footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #88858e;
+}
+
+.image_footer>div>p {
+    margin: 0px;
+}
+
+.receivedonation_container {
+    background-color: #e3f6f5;
+    padding-top: 10px;
+    padding-bottom: 50px;   
+}
+
+.modalAlert {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    padding: 0 28px;
+    border-radius: 3px;
+    box-shadow: 1px 4px 4px 0px rgba(0,0,0,0.14);
+}
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--ds-blanket, rgba(9, 30, 66, 0.54));
+  }
+
+  .modalAlert > div {
+    text-align: right;
+  }
+
+  .modalAlert > div > .form_button {
+    margin: 0;
+  }
+
+  .social_network {
+    width: 40px;
+    margin: 10px 20px;
+  }
+
+@media only screen and (max-width: 720px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    header>img {
+        margin: 0;
+    }
+
+    header>.button_donate {
+        margin: 0;
+    }
+
+    header>ul {
+        flex-direction: column;
+        padding: 0;
+        width: 100% !important;
+    }
+
+    .home_top {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .home_top>div>h1 {
+        text-align: center;
+    }
+
+    .home_top>div>.button_donate {
+        margin: 0;
+        text-align: center;
+    }
+
+    .home_top>div {
+        text-align: center;
+    }
+
+    .container_in_clothes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .donative_form>div {
+        width: auto;
+    }
+
+    .container_about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .receivedonation_form>div {
+        width: auto;
+    }
+
+}

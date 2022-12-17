@@ -1,0 +1,99 @@
+[
+    {
+        "photo": "src/assets/image/roupa/roupa_1.jpg",
+        "name": "Camiseta Básica",
+        "size": "G",
+        "color": "Rosa"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_2.jpg",
+        "name": "Macacão",
+        "size": "G",
+        "color": "Verde"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_3.jpg",
+        "name": "Blusa de Frio",
+        "size": "M",
+        "color": "Preta"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_4.jpg",
+        "name": "Camiseta Regata",
+        "size": "P",
+        "color": "Blue"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_5.jpg",
+        "name": "Short Jeans",
+        "size": "M",
+        "color": "Azul"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_6.jpg",
+        "name": "Calça Flare",
+        "size": "M",
+        "color": "Preta"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_7.jpg",
+        "name": "Vestido",
+        "size": "M",
+        "color": "Preto"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_8.jpg",
+        "name": "Vestido de Bolinha",
+        "size": "G",
+        "color": "Verde"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_9.jpg",
+        "name": "Blusa tropical",
+        "size": "P",
+        "color": "Colorida"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_10.jpg",
+        "name": "Blusa Feminina",
+        "size": "P",
+        "color": "Amarela"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_11.jpg",
+        "name": "Vestido Floral",
+        "size": "G",
+        "color": "Floral"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_12.jpg",
+        "name": "Calca Jeans",
+        "size": "G",
+        "color": "Azul"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_13.jpg",
+        "name": "Jaqueta com ziper",
+        "size": "P",
+        "color": "Rosa"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_14.jpg",
+        "name": "Jaqueta com ziper",
+        "size": "GG",
+        "color": "Branca"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_15.jpg",
+        "name": "Calça Jeans",
+        "size": "G",
+        "color": "Azul"
+    },
+    {
+        "photo": "src/assets/image/roupa/roupa_16.jpg",
+        "name": "Calça Jogger",
+        "size": "G",
+        "color": "Preta"
+    }
+
+]
